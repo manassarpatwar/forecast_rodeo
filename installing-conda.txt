@@ -1,0 +1,13 @@
+Method on installing conda environment on bessemer
+1) srun --pty bash -i
+2) module load Anaconda3/2019.07
+3) conda config --add channels https://conda.anaconda.org/conda-forge
+4) conda config --add channels conda-forge/label/cf201901
+5) conda env create -f environment.yml
+6) conda install -c conda-forge/label/cf201901 cdo=1.8.2
+7) conda install scipy=0.19.1
+8) conda install pandas=0.20.3
+9) conda update pytables (run if error when running create_data_matrices)
+10) pip install https://github.com/jcrudy/py-earth/archive/master.zip (if error then step 11)
+11) If error on step 10 -> conda install -c anaconda gcc_linux-64 -> goto step 10
+

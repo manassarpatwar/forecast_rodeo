@@ -1,0 +1,17 @@
+name: forecast-rodeo
+channels:
+  - https://conda.anaconda.org/conda-forge
+  - conda-forge
+  - r
+  - conda-forge/label/cf201901
+dependencies:
+  - python=2.7
+  - pygrib
+  - netCDF4
+  - jpeg
+  - pandas
+  - scipy
+  - r
+  - cdo
+  - hdf5=1.8.18
+  - pytables
