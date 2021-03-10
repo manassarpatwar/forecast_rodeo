@@ -116,5 +116,4 @@ dependencies:
   - pip:
     - scikit-learn==0.20.4
     - sklearn-contrib-py-earth==0.1.0
-prefix: /home/aca18mms/.conda/envs/forecast-rodeo
 
